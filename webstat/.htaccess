@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/mpodvishenskiy.ru/webstat"
+AuthUserFile /var/www/megbegb/data/etc/200542.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
